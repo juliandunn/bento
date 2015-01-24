@@ -111,7 +111,7 @@
   ],
   "post-processors": [
     {
-      "output": "../builds/{{.Provider}}/opscode_solaris-10.11_chef-{{user `chef_version`}}.box",
+      "output": "../builds/{{.Provider}}/bento_solaris-10.11_chef-{{user `chef_version`}}.box",
       "type": "vagrant"
     }
   ]

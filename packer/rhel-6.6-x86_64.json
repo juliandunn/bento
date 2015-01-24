@@ -101,7 +101,7 @@
   ],
   "post-processors": [
     {
-      "output": "../builds/{{.Provider}}/opscode_rhel-6.6_chef-{{user `chef_version`}}.box",
+      "output": "../builds/{{.Provider}}/bento_rhel-6.6_chef-{{user `chef_version`}}.box",
       "type": "vagrant"
     }
   ],

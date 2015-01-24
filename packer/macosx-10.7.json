@@ -124,7 +124,7 @@
     {
       "type": "vagrant",
       "vagrantfile_template": "vagrantfile_templates/macosx.rb",
-      "output": "../builds/{{.Provider}}/opscode_macosx-10.7_chef-{{user `chef_version`}}.box"
+      "output": "../builds/{{.Provider}}/bento_macosx-10.7_chef-{{user `chef_version`}}.box"
     }
   ]
 }

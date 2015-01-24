@@ -130,7 +130,7 @@
   ],
   "post-processors": [
     {
-      "output": "../builds/{{.Provider}}/opscode_freebsd-9.3-i386_chef-{{user `chef_version`}}.box",
+      "output": "../builds/{{.Provider}}/bento_freebsd-9.3-i386_chef-{{user `chef_version`}}.box",
       "override": {
         "parallels": {
           "vagrantfile_template": "vagrantfile_templates/parallels/freebsd.rb"
